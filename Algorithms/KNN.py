@@ -43,3 +43,5 @@ class KNN:
             predicted_label = np.argmax(np.bincount(nearest_labels))  # Predict the label with the most occurrences
             predictions.append(predicted_label)
         return predictions
+    
+    
